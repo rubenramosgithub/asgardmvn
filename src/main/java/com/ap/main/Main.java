@@ -39,7 +39,7 @@ public final class Main extends javax.swing.JFrame {
      */
     public void initMoreComponents(){
         
-        setLocationRelativeTo(null); //centro el frame en la pantalla
+        setLocationRelativeTo(null); //centro el frame en la pantalla 
         com.ap.configuracion.Parametros.getInstance().setLocalizacion(new Locale("es")); //Fijo idioma
         this.setVisible(true);
         panelPresentacion = new PanelPresentacion(this);
