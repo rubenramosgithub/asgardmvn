@@ -21,13 +21,11 @@ import javax.swing.JFrame;
 public final class Main extends javax.swing.JFrame {
 
     private PanelPresentacion panelPresentacion;
-    private PanelJuego panelJuego;
-    
+    private PanelJuego panelJuego; 
     /**
      * Crea un nuevo elemento <code>Main</code>
      */
-    public Main(){
-        initComponents();
+    public Main(){initComponents();
         initMoreComponents();
     }
     
