@@ -27,8 +27,7 @@ public final class Main extends javax.swing.JFrame {
      */
     public Main()
     {initComponents();
-        initMoreComponents();
-    }
+        initMoreComponents();}
     
     /**
      * Continua con la inicialización de parámetros del <code>Main</code>, centrándolo
