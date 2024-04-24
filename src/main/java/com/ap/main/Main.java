@@ -25,7 +25,8 @@ public final class Main extends javax.swing.JFrame {
     /**
      * Crea un nuevo elemento <code>Main</code>
      */
-    public Main(){initComponents();
+    public Main()
+    {initComponents();
         initMoreComponents();
     }
     
