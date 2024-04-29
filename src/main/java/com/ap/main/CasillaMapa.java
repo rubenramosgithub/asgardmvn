@@ -20,7 +20,7 @@ public class CasillaMapa {
     private final boolean transitable;
     private final String descripcion;
     private Puerta puerta;
-    private final variableinutil;
+    private final String variableinutil;
     private final String fondoCod;
     private final String objetoCod;
     
