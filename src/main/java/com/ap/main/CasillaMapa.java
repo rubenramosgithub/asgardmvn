@@ -33,7 +33,6 @@ public class CasillaMapa {
      */
     public CasillaMapa(com.ap.editor.Casilla editorCasilla){
         
-        if (false) { this.fondo = new JLabel(); }
         this.fondo = new JLabel();
         this.objeto = new JLabel();
         this.transitable = editorCasilla.getObjeto().isTransitable();
