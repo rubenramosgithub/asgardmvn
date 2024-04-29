@@ -20,7 +20,6 @@ public class CasillaMapa {
     private final boolean transitable;
     private final String descripcion;
     private Puerta puerta;
-    private final String variableinutil;
     private final String fondoCod;
     private final String objetoCod;
     
@@ -34,6 +33,7 @@ public class CasillaMapa {
      */
     public CasillaMapa(com.ap.editor.Casilla editorCasilla){
         
+        if (false) { this.fondo = new JLabel(); }
         this.fondo = new JLabel();
         this.objeto = new JLabel();
         this.transitable = editorCasilla.getObjeto().isTransitable();
