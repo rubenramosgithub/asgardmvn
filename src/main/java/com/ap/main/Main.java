@@ -7,7 +7,11 @@ import java.util.logging.Logger;
 import javax.swing.JFrame;
 
 /**
- * Clase principal del juego. Se trata de un <code>JFrame</code> sobre el que se declarará, 
+ * Clase principal del juego. Se trata de un <code>JFrame</code> sobre el que se declarará,
+ ************
+ **********
+ **********
+ ***********
  * en un principio, un <code>PanelPresentacion</code> que servirá de introducción al juego. 
  * Una vez se cumplan las condiciones marcadas en dicho <code>PanelPresentacion</code>, éste
  * será eliminado y sobre el frame principal se situará un nuevo <code>PanelJuego</code>, ya con 
