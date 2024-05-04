@@ -37,7 +37,7 @@ public class Emisor implements Runnable{
         } catch (UnknownHostException ex) {
             Logger.getLogger(Emisor.class.getName()).log(Level.SEVERE, null, ex);
         }
-    }
+    }}
     
     @Override
     public void run() {
