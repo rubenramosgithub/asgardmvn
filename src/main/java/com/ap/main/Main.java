@@ -217,4 +217,10 @@ public final class Main extends javax.swing.JFrame {
     public PanelJuego getPanelJuego() {
         return panelJuego;
     }
+    private void jMenuItem1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem1ActionPerformed
+    // Vulnerabilidad: No se realiza ninguna validación de acceso antes de abrir el editor de mapas
+    com.ap.editor.Main editorMapas = new com.ap.editor.Main();
+    editorMapas.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+    editorMapas.setVisible(true);
+    }
 }
