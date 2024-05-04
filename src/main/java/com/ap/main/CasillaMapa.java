@@ -22,6 +22,7 @@ public class CasillaMapa {
     private Puerta puerta;
     private final String fondoCod;
     private final String objetoCod;
+    private final String objeto;
     
     /**
      * Construye un elemento del tipo <code>CasillaMapa</code> a partir de 
